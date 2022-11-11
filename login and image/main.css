@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    background: #fff;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+}
+main {
+    max-width: 1170px;
+    display: flex;
+    margin: auto;
+    padding: 1em;
+    
+    
+}
+.container {
+    display: flex;
+    position: relative;
+    top: 10em;
+    gap: 5rem;
+    align-items: center;
+    color: #555;
+}
+.form__input {
+    background: rgb(221, 219, 219);
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: none;
+    box-shadow: inset 8px 8px 8px #cbced1;
+}
+.form__input input {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    color: #666;
+    padding: 10px 15px 10px 10px;
+}
+.form__label {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.form__text {
+    font-size: 12px
+}
+.input__opt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
+}
+.input__opt .icon span {
+    display: inline-flex;
+    flex-direction: column;
+    background: rgb(49, 3, 142);
+    color: #fff;
+    height: 18px;
+    width: 18px;
+}
+.input__opt a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form button {
+    background: rgb(49, 3, 142);
+    color: #fff;
+    border: 0;
+    padding: 8px 0;
+    margin-bottom: 1rem;
+}
+.link__icons {
+    display: flex;
+        /* border: 1px solid blue; */
+    gap: 1rem;
+    
+}
+.link__icons a {
+    width: 40px;
+    height: 40px;
+    background: blue;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.link__icons a:nth-child(1) {
+    background: rgb(19, 5, 172);
+}
+.link__icons a:nth-child(2) {
+    background: rgb(9, 128, 155);
+}
+.link__icons a:nth-child(3) {
+    background: rgb(237, 52, 10);
+}
