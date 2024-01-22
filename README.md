@@ -1,1 +1,1 @@
-A folder that contains different forms
+A directory that contains different forms
